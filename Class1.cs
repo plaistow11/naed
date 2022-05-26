@@ -4,9 +4,9 @@ namespace Naed
 {
 	public class Naed
 	{
-		public Naed()
+		public void Main()
 		{
-			Console.Title("Naed.");
+			Console.Title = "Naed.";
 			Console.WriteLine("You've been naed.")
 		}
 	}
